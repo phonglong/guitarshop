@@ -1,0 +1,1 @@
+<?phpclass Items extends CI_Controller{    public function __construct()    {        parent::__construct();    }      function index()	{		$this->load->view('public/items/detail');	}		function detail(){		$this->load->view('public/items/detail');	}}?>

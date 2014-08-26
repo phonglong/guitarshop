@@ -1,0 +1,1 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');class About extends CI_Controller {	public function index()	{		$data['about'] = $this->Post->get_info(1);		$this->load->view('public/about',$data);	}	}
